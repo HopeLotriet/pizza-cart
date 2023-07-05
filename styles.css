@@ -1,0 +1,129 @@
+body {
+    background-color: #FFEEDB;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.heading{
+    text-align: center;
+}
+
+.pizza{
+    border: 2px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    
+}
+
+.small{
+    background-color: #A99CA4;
+    border: 2px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.medium{
+    background-color: #9b5af0;
+    border: 2px solid;
+    padding: 1em;
+   margin: 1em;
+border-radius: 1em;
+}
+
+.large{
+    background-color: hsla(347, 86%, 66%, 0.877);
+    border: 2px solid;
+    padding: 1em;
+   margin: 1em;
+   border-radius: 1em;
+}
+.toppings{
+    border: 2px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    }
+
+.cart {text-align:center;
+    border: 2px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;}
+    
+.footer{
+    background-color: rgb(94, 212, 216);
+    border: 2px solid;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;}
+
+    .special{
+        background-color: yellow;
+        border: 1px;
+        padding: 0em;
+        margin: 0em;
+    }
+
+    .checkout {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 30px,
+      }
+      
+      .checkout:hover {
+        background-color: #45a049;
+      }
+      
+.buttonPizza{
+background-color: rgb(220, 229, 239); 
+  border: none; 
+  color: rgb(33, 33, 33); 
+  padding: 10px 10px;
+  border-radius: 0.5em;
+  font-size: 16px; 
+  cursor: pointer;
+}
+
+.buttonPizza:hover {
+    background-color: rgb(159, 180, 242);
+}
+
+.payment{
+    background-color: rgb(230, 236, 242); 
+      border: none; 
+      color: rgb(33, 33, 33); 
+      padding: 10px 10px;
+      border-radius: 0.5em;
+      font-size: 16px; 
+      cursor: pointer;
+    }
+    
+    .payment:hover {
+        background-color: RoyalBlue;
+    }
+
+    .highlight {
+        background-color: #ffff00;
+    }
+
+      @media (max-width: 600px) {
+        .buy-button {
+          font-size: 14px;
+        }
+      }
+
+@media (min-width: 760px) {
+    body {background-color: burlywood;}
+}
+
+@media (min-width: 960px){
+    body {background-color: #FFEEDB;}
+
+.pizza {display: flex;}
+}
